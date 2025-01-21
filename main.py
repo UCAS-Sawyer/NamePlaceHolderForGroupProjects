@@ -4,6 +4,7 @@ def helloworld(name):
     return f"Hello {name}"
 
 def main():
-    print(helloworld("Johny"))
+    name = input("\n What is your name?\t")
+    print(helloworld(name))
 
 main()
